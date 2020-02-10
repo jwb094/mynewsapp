@@ -1,16 +1,14 @@
-import React from "react";
-//Functional Component 
+// import React from "react";
+import React, { Component } from "react";
+import Searchbar from  '../components/searchbar';
+
 const MainPage = () => {
+
+
   return (
-      <div class="ui container">
-          <h3>Welcome to the React Router Tutorial</h3>
-      <small>Main Page</small>
-  <div class="four wide column"></div>
-  <div class="four wide column"></div>
-  <div class="four wide column"></div>
-  <div class="four wide column"></div>
+ <div class="ui container" id="select">
+ <Searchbar/>
 </div>
   );
 };
-
 export default MainPage;
