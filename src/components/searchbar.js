@@ -28,14 +28,14 @@ class SearchBar extends React.Component {
 
             
             <div className="ui grid">
-                <div className="ui icon input four wide column">
-                                <input type="text" placeholder="Search..." id="search_term" />
+                <div className="ui icon input eight wide column">
+                                <input type="text" className="eight wide column" placeholder="Search..." id="search_term" />
                 </div>
                 <div className="ui icon input four wide column">
                                 <button type="button" id="button-addon2"  onClick={this.getValue}>Button</button>
                 </div>
             </div>
-            <div className="ui grid">
+            <div className="ui sixteen wide column">
                 <Searchlist />
             </div>
             </section>
